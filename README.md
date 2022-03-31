@@ -1,20 +1,10 @@
 # Next.js×Laravelで開発する簡易アプリケーションのハンズオン
 
-## 前提
-
-- M1Macにも対応しています！
-- Windowsでの動作確認は行っておらず環境構築のエラー対応はできないので悪しからず...
-
 ## 使用技術
 
 - frontend: TypeScript/React/Next.js/Tailwind CSS
 - backend(api): PHP/Laravel
 - infra: Docker/Docker Compose
-## ブランチ指定でclone
-
-```
-git clone -b init https://github.com/shimotaroo/nextjs-laravel-hands-on.git
-```
 
 ## DB用Dockerfileの修正（M1Mac以外）
 

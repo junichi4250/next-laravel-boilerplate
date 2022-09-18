@@ -34,7 +34,7 @@ Route::put('students/{id}', [ApiController::class, 'update']);
 Route::delete('students/{id}', [ApiController::class, 'delete']);
 
 // 商品
-Route::get('/products', [ProductController::class, 'getAll']);
+Route::get('/products', [ProductController::class, 'index']);
 Route::get('/products/{id}', [ProductController::class, 'get']);
 Route::post('/products', [ProductController::class, 'create']);
 Route::put('products/{id}', [ProductController::class, 'update']);
